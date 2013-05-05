@@ -18,6 +18,17 @@
 		043E0F16173654C300C2F40B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043E0EFD173654C300C2F40B /* Foundation.framework */; };
 		043E0F1E173654C300C2F40B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F1C173654C300C2F40B /* InfoPlist.strings */; };
 		043E0F21173654C300C2F40B /* YYFilterControl_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E0F20173654C300C2F40B /* YYFilterControl_SampleTests.m */; };
+		043E0F33173654E900C2F40B /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F2B173654E900C2F40B /* dot.png */; };
+		043E0F34173654E900C2F40B /* dot_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F2C173654E900C2F40B /* dot_selected.png */; };
+		043E0F35173654E900C2F40B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F2D173654E900C2F40B /* README.md */; };
+		043E0F36173654E900C2F40B /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F2E173654E900C2F40B /* slider.png */; };
+		043E0F37173654E900C2F40B /* YYFilterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E0F30173654E900C2F40B /* YYFilterControl.m */; };
+		043E0F38173654E900C2F40B /* YYFilterKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E0F32173654E900C2F40B /* YYFilterKnob.m */; };
+		043E0F3B173654F500C2F40B /* icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F39173654F500C2F40B /* icon_iPad.png */; };
+		043E0F3C173654F500C2F40B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F3A173654F500C2F40B /* icon.png */; };
+		043E0F411736552D00C2F40B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E0F3F1736552D00C2F40B /* ViewController.xib */; };
+		043E0F441736561800C2F40B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E0F431736561800C2F40B /* ViewController.m */; };
+		043E0F451736561800C2F40B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E0F431736561800C2F40B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +46,31 @@
 		043E0EFB173654C300C2F40B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		043E0EFD173654C300C2F40B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		043E0EFF173654C300C2F40B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		043E0F03173654C300C2F40B /* YYFilterControl_Sample-Info.plist */ = {isa = PBXFileReference; path = "YYFilterControl_Sample-Info.plist"; sourceTree = "<group>"; };
+		043E0F03173654C300C2F40B /* YYFilterControl_Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YYFilterControl_Sample-Info.plist"; sourceTree = "<group>"; };
 		043E0F05173654C300C2F40B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		043E0F07173654C300C2F40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		043E0F09173654C300C2F40B /* YYFilterControl_Sample-Prefix.pch */ = {isa = PBXFileReference; path = "YYFilterControl_Sample-Prefix.pch"; sourceTree = "<group>"; };
-		043E0F0A173654C300C2F40B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		043E0F09173654C300C2F40B /* YYFilterControl_Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYFilterControl_Sample-Prefix.pch"; sourceTree = "<group>"; };
+		043E0F0A173654C300C2F40B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		043E0F0B173654C300C2F40B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		043E0F12173654C300C2F40B /* YYFilterControl_SampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYFilterControl_SampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043E0F13173654C300C2F40B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		043E0F1B173654C300C2F40B /* YYFilterControl_SampleTests-Info.plist */ = {isa = PBXFileReference; path = "YYFilterControl_SampleTests-Info.plist"; sourceTree = "<group>"; };
+		043E0F1B173654C300C2F40B /* YYFilterControl_SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YYFilterControl_SampleTests-Info.plist"; sourceTree = "<group>"; };
 		043E0F1D173654C300C2F40B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		043E0F1F173654C300C2F40B /* YYFilterControl_SampleTests.h */ = {isa = PBXFileReference; path = YYFilterControl_SampleTests.h; sourceTree = "<group>"; };
+		043E0F1F173654C300C2F40B /* YYFilterControl_SampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFilterControl_SampleTests.h; sourceTree = "<group>"; };
 		043E0F20173654C300C2F40B /* YYFilterControl_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFilterControl_SampleTests.m; sourceTree = "<group>"; };
+		043E0F2B173654E900C2F40B /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		043E0F2C173654E900C2F40B /* dot_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_selected.png; sourceTree = "<group>"; };
+		043E0F2D173654E900C2F40B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		043E0F2E173654E900C2F40B /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		043E0F2F173654E900C2F40B /* YYFilterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFilterControl.h; sourceTree = "<group>"; };
+		043E0F30173654E900C2F40B /* YYFilterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFilterControl.m; sourceTree = "<group>"; };
+		043E0F31173654E900C2F40B /* YYFilterKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFilterKnob.h; sourceTree = "<group>"; };
+		043E0F32173654E900C2F40B /* YYFilterKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFilterKnob.m; sourceTree = "<group>"; };
+		043E0F39173654F500C2F40B /* icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iPad.png; sourceTree = "<group>"; };
+		043E0F3A173654F500C2F40B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		043E0F3F1736552D00C2F40B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		043E0F421736561800C2F40B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043E0F431736561800C2F40B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +132,10 @@
 			children = (
 				043E0F0A173654C300C2F40B /* AppDelegate.h */,
 				043E0F0B173654C300C2F40B /* AppDelegate.m */,
+				043E0F421736561800C2F40B /* ViewController.h */,
+				043E0F431736561800C2F40B /* ViewController.m */,
+				043E0F3F1736552D00C2F40B /* ViewController.xib */,
+				043E0F2A173654E900C2F40B /* YYFilterControl */,
 				043E0F02173654C300C2F40B /* Supporting Files */,
 			);
 			path = YYFilterControl_Sample;
@@ -116,6 +144,8 @@
 		043E0F02173654C300C2F40B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				043E0F39173654F500C2F40B /* icon_iPad.png */,
+				043E0F3A173654F500C2F40B /* icon.png */,
 				043E0F03173654C300C2F40B /* YYFilterControl_Sample-Info.plist */,
 				043E0F04173654C300C2F40B /* InfoPlist.strings */,
 				043E0F07173654C300C2F40B /* main.m */,
@@ -141,6 +171,21 @@
 				043E0F1C173654C300C2F40B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043E0F2A173654E900C2F40B /* YYFilterControl */ = {
+			isa = PBXGroup;
+			children = (
+				043E0F2B173654E900C2F40B /* dot.png */,
+				043E0F2C173654E900C2F40B /* dot_selected.png */,
+				043E0F2D173654E900C2F40B /* README.md */,
+				043E0F2E173654E900C2F40B /* slider.png */,
+				043E0F2F173654E900C2F40B /* YYFilterControl.h */,
+				043E0F30173654E900C2F40B /* YYFilterControl.m */,
+				043E0F31173654E900C2F40B /* YYFilterKnob.h */,
+				043E0F32173654E900C2F40B /* YYFilterKnob.m */,
+			);
+			path = YYFilterControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +259,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				043E0F06173654C300C2F40B /* InfoPlist.strings in Resources */,
+				043E0F33173654E900C2F40B /* dot.png in Resources */,
+				043E0F34173654E900C2F40B /* dot_selected.png in Resources */,
+				043E0F35173654E900C2F40B /* README.md in Resources */,
+				043E0F36173654E900C2F40B /* slider.png in Resources */,
+				043E0F3B173654F500C2F40B /* icon_iPad.png in Resources */,
+				043E0F3C173654F500C2F40B /* icon.png in Resources */,
+				043E0F411736552D00C2F40B /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +302,9 @@
 			files = (
 				043E0F08173654C300C2F40B /* main.m in Sources */,
 				043E0F0C173654C300C2F40B /* AppDelegate.m in Sources */,
+				043E0F37173654E900C2F40B /* YYFilterControl.m in Sources */,
+				043E0F38173654E900C2F40B /* YYFilterKnob.m in Sources */,
+				043E0F441736561800C2F40B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043E0F21173654C300C2F40B /* YYFilterControl_SampleTests.m in Sources */,
+				043E0F451736561800C2F40B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
